@@ -1,0 +1,18 @@
+# == Schema Information
+#
+# Table name: day_assignments
+#
+#  id         :bigint           not null, primary key
+#  date       :date
+#  hash_value :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+one:
+  hash_value: MyString
+  date: 2024-10-03
+
+two:
+  hash_value: MyString
+  date: 2024-10-03
