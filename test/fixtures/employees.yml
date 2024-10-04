@@ -1,0 +1,21 @@
+# == Schema Information
+#
+# Table name: employees
+#
+#  id                 :bigint           not null, primary key
+#  available_days     :integer          default([]), is an Array
+#  name               :string
+#  work_hours_per_day :float
+#  created_at         :datetime         not null
+#  updated_at         :datetime         not null
+#
+
+one:
+  name: MyString
+  work_hours_per_day: 1.5
+  available_days: [1, 2]
+
+two:
+  name: MyString
+  work_hours_per_day: 1.5
+  available_days: [1, 3, 5]
