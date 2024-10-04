@@ -40,4 +40,6 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-
+group :development do
+  gem "annotate"
+end
