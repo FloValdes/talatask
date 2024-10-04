@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
+  resources :employees
+  resources :abilities
   resources :tasks
+
+  get "day_assignment/:date" => "day_assignment#show", as: :day_assignment
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
