@@ -12,6 +12,8 @@ Para una descripción de todos los endpoints disponibles revisar `API_DOCUMENTAT
 Para correr los tests:
 `docker-compose run web rails test`
 
+El código principal de la aplicación está en la carpeta `/app` (específicamente en models, controllers, jobs y services), mientras que los tests están en `/test`.
+
 ### Decisiones de diseño
 
 La aplicación es un poco más compleja de lo que quizás una tarea así necesitaba, pero sentí que soluciones
